@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-filter",
+  "version": "1.0.0",
+  "description": "基于bootstrap-select开发的支持远程搜索的下拉框插件",
+  "main": "dist/js/bootstrap-filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantom0424/bootstrap-filter.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-select",
+    "bootstrap-filter"
+  ],
+  "author": "phantom0424",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phantom0424/bootstrap-filter/issues"
+  },
+  "homepage": "https://github.com/phantom0424/bootstrap-filter#readme",
+  "dependencies": {
+    "bootstrap-select": "^1.12.1"
+  }
+}
