@@ -1,7 +1,5 @@
 ## 下拉框插件
-> 本插件基于bootstrap-select进行二次封装的，可以支持远程搜索，bootstrap-select所有的配置都可支持，可以参考http://silviomoreto.github.io/bootstrap-select/options/
-
-[TOC]
+> 本插件基于bootstrap-select进行二次封装的，可以支持远程搜索，bootstrap-select所有的配置都可支持，可以参考https://developer.snapappointments.com/bootstrap-select/
 
 ### 依赖项
 ~~~
@@ -18,14 +16,14 @@
 * 使用控件
 ~~~
 // 初始化控件
-$('#selGrade').cjfilter({
+$('#selGrade').bsfilter({
     url: url,
     valueField: 'ui_grade_id',
     textField: 'v_grade_name'
 });
 
 // 带分组的
-$('#selClass').cjfilter({
+$('#selClass').bsfilter({
     url: url,
     valueField: 'ui_class_id',
     textField: 'v_class_name',
@@ -35,17 +33,17 @@ $('#selClass').cjfilter({
 
 ~~~
 // 设置值
-$("#selGrade").cjfilter('setValue', 1000041020111);
+$("#selGrade").bsfilter('setValue', 1000041020111);
 ~~~
 
 ~~~
 // 选中第一个选项
-$("#selGrade").cjfilter('selectFirst');
+$("#selGrade").bsfilter('selectFirst');
 ~~~
 
 ~~~
 // 重新加载数据
-$("#selClass").cjfilter('reload', {
+$("#selClass").bsfilter('reload', {
     queryParams: {
         ui_grade_id: 1000041020111
     }

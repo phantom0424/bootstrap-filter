@@ -51,7 +51,7 @@
                         setTimeout(function(){
                             that.$searchOldValue = that.$searchbox.val();
                             timeOut = setTimeout(function(){   //设置延后ajax请求
-                                that.$element.cjfilter('search', that.$searchbox.val(), originalPropertyChange);
+                                that.$element.bsfilter('search', that.$searchbox.val(), originalPropertyChange);
                                 clearTimeout(timeOut);
                             }, 400)
                         }, 100);
@@ -163,7 +163,7 @@
         return true;
     };
     
-    var pluginName = 'cjfilter',
+    var pluginName = 'bsfilter',
         defaults = {};
     
     /**

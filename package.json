@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/phantom0424/bootstrap-filter#readme",
   "dependencies": {
-    "bootstrap-select": "^1.12.1"
+    "bootstrap-select": "^1.12.4"
   }
 }
