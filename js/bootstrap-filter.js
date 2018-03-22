@@ -120,18 +120,13 @@
     });
 })(jQuery, window, document);
 
-/*!
- * 语言包
- */
-!function(a,b){b(jQuery)}(this,function(a){!function(a){a.fn.selectpicker.defaults={noneSelectedText:"没有选中任何项",noneResultsText:"没有找到匹配项",countSelectedText:"选中{1}中的{0}项",maxOptionsText:["超出限制 (最多选择{n}项)","组选择超出限制(最多选择{n}组)"],multipleSeparator:", "}}(a)});
-
 /**
  * bootstrap-filter
  * TODO：
- * 1. 分组支持ok
- * 2. 事件支持ok
- * 3. 多选支持ok
- * 4. 预设值支持ok
+ * 1. 分组支持 done.
+ * 2. 事件支持 done.
+ * 3. 多选支持 done.
+ * 4. 预设值支持 done.
  */
 ;(function ($, window, document, undefined) {
     'use strict';

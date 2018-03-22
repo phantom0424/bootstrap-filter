@@ -3,8 +3,9 @@
 
 ### 依赖项
 ~~~
-<css href="__PUBLIC__/plugins/bootstrap-select/css/bootstrap-select.min.css" />
-<js href="__PUBLIC__/plugins/bootstrap-select/js/bootstrap-select.js"/>
+<link href="https://cdn.bootcss.com/bootstrap-select/1.12.4/css/bootstrap-select.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap-select/1.12.4/js/i18n/defaults-zh_CN.js"></script>
 ~~~
 
 ### 使用
