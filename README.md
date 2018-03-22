@@ -11,7 +11,7 @@
 ### 使用
 * 页面引用
 ~~~
-<js href="__PUBLIC__/custom/BootstrapFilter/js/bootstrap-filter.js" />
+<script src="dist/bootstrap-filter.js"></script>
 ~~~
 
 * 使用控件
